@@ -16,14 +16,79 @@
 .navbar
 {
     width:100%;
-    height:80px;
+    height:85px;
     border-top:3px solid green;
-    background-color: black;
+    background-color:#202020;
     display: flex;
     align-items: center;
 }
 
 .logo
 {
+    height:100vh;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img
+{
+    width:60px;
+    height:60px;
+    margin-left:10px;
+}
+
+
+.logo span 
+{
+    color:white;
+    font-size: 30px;
+   margin-top: 4px;
+   margin-left:3px;
+}
+
+.search
+{
+    height:85px;
+    width:600px;
+
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+}
+
+.search input
+{
+    width:500px;
+    height:40px;
+    outline: none;
+    border-radius:10px 0px 0px 10px;
+    padding-left:20px;
+    font-size: 20px;
+    border:1px solid grey;
+    
+}
+
+#search_box
+{
+    width:45px;
+    height:39px;
+    background-color: red;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    border: none;
+    outline: none;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    cursor: pointer;
+}
+
+#search_box:hover 
+{
+    background-color: black;
 }
